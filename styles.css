@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Tangerine&display=swap');
+:root {
+    --cor-fundo-destaque: rgba(199, 199, 199, 0.1);
+    --cor-fundo-pagina-principal:#ffffff;
+ }
+  
+
+ html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-fundo-pagina-principal);
+}
+
+h1,h2{
+    font-family: 'Cinzel', serif;
+}
+.box{
+    display: grid;
+    place-items: center;
+    height: 100%;
+   
+}
+
+
+.container{
+    background-color: var(--cor-fundo-destaque);
+    width: 70%; 
+    height: 100%;
+    padding: 0px 30px;
+    border-radius: 15px;   
+}
+
+p{
+    font-size: 17px;
+}
+
